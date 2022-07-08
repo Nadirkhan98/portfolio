@@ -352,3 +352,9 @@ footer p:nth-child(2) {
   max-height: 500px;
   background-color: #000; */
 }
+
+.style_iconContainer__mYbQ2 i:hover {
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+  transform: scale(1.2);
+}

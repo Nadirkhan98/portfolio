@@ -32,20 +32,20 @@
     <link rel="shortcun icon" href="/static/img/favicon.ico" />
 
     <nav class="fixed-top">
-			<h2 class="logo" href ='#top'>N<span>AK</span></h2>
+		 <h2 id = 'logo' class="logo" href ='#top'>N<span>AK</span></h2>
 			<ul>
 				<li><a href="#about">About Me</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#skills">Skills</a></li>
         <li><a href="#contact">Contact Me</a></li>
-        <a href="/static/nadir_cv.pdf" download="" class="btn btn--accent"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="animate-bounce cv" height="30" width="30" xmlns="http://www.w3.org/2000/svg"> <path d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"></path> </svg> CV</a>
+        <a id ='cv'href="/static/nadir_cv.pdf" download="" class="btn btn--accent"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" class="animate-bounce cv" height="30" width="30" xmlns="http://www.w3.org/2000/svg"> <path d="M505.7 661a8 8 0 0 0 12.6 0l112-141.7c4.1-5.2.4-12.9-6.3-12.9h-74.1V168c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v338.3H400c-6.7 0-10.4 7.7-6.3 12.9l112 141.8zM878 626h-60c-4.4 0-8 3.6-8 8v154H214V634c0-4.4-3.6-8-8-8h-60c-4.4 0-8 3.6-8 8v198c0 17.7 14.3 32 32 32h684c17.7 0 32-14.3 32-32V634c0-4.4-3.6-8-8-8z"></path> </svg> CV</a>
 			</ul>
 		</nav>
 
     <div id ='top' class="hero">
       <div class="content">
         <h4>Hello, my name is</h4>
-        <h1>Nadir <span>Ahmed Khan</span></h1>
+        <h1>Nadir <span class="auto-type" ></span></h1>
         <h3>I am a Trainee Full Stack Web Developer.</h3>
       </div>
     </div>
@@ -147,11 +147,12 @@
       <div class="main">
         <div class="pra">
           <div class="style_iconContainer__mYbQ2">
-            <i class="devicon-javascript-plain"></i
+            <i class="devicon-javascript-plain" alt="javascript icon"></i
             ><i class="devicon-html5-plain"></i
             ><i class="devicon-css3-plain"></i
             ><i class="devicon-bootstrap-plain"></i
-            ><i class="devicon-c-line"></i><i class="devicon-cplusplus-line"></i
+            ><i class="devicon-c-line"></i
+            ><i class="devicon-cplusplus-line"></i
             ><i class="devicon-python-plain-wordmark"></i
             ><i class="devicon-react-original-wordmark"></i
             ><i class="devicon-redux-original"></i
@@ -183,6 +184,7 @@
       <p class="end">Thank you</p>
     </footer>
 
+    <script defer src="./bundle.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -198,5 +200,6 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
   </body>
 </html>
