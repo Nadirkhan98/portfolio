@@ -358,3 +358,45 @@ footer p:nth-child(2) {
   cursor: pointer;
   transform: scale(1.2);
 }
+
+#dDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+#hDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+#jDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+.icon {
+  color: #0aa;
+  cursor: pointer;
+}
+
+.icon i:hover {
+  color: rgb(250, 250, 250);
+  cursor: pointer;
+}
+
+.p {
+  text-align: center;
+}
+
+#h3 {
+  color: white;
+  margin-bottom: 0px;
+}
