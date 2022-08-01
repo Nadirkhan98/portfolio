@@ -382,6 +382,15 @@ footer p:nth-child(2) {
   flex-direction: column;
   color: white;
 }
+
+#mDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
 .icon {
   color: #0aa;
   cursor: pointer;
